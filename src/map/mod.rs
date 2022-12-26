@@ -1,3 +1,3 @@
 pub mod map_plugin;
-mod map_generator;
+pub mod map_generator;
 
