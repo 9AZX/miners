@@ -12,7 +12,7 @@ fn main() {
 
     App::new()
         .add_plugins(DefaultPlugins)
-        .add_plugin(MapPlugin)
-        .add_plugin(camera::CameraPlugin)
+        .add_plugins(MapPlugin)
+        .add_plugins(camera::CameraPlugin)
         .run();
 }
